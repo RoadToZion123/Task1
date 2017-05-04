@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Task1</string>
-    <string name="myText">Hello World !</string>
+    <string name="permission_name">Access client activity</string>
+    <string name="permission_discription">This permission give us access to our client activity</string>
+    <string name="destinationText">Кому:</string>
+    <string name="themeText">Тема:</string>
+    <string name="messageText">Ваше сообщение:</string>
+    <string name="hintDesText">Введите получателя</string>
+    <string name="hintThemeText">Введите тему письма</string>
+    <string name="hintMesText">Введите ваше сообщение</string>
+    <string name="sendText">Send</string>
 </resources>

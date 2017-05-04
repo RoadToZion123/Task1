@@ -1,1 +1,1 @@
-include ':app', ':hometask'
+include ':app', ':hometask', ':task2'

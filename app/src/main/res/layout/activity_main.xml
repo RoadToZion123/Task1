@@ -10,12 +10,66 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="epam.androidlab.com.task1.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/myText"
-        android:id="@+id/myText"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="@string/destinationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:id="@+id/textDest" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hintDesText"
+            android:ems="10"
+            android:id="@+id/editTextDest" />
+
+        <TextView
+            android:text="@string/themeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:id="@+id/textTheme" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailSubject"
+            android:hint="@string/hintThemeText"
+            android:ems="10"
+            android:id="@+id/editTextTheme" />
+
+        <TextView
+            android:text="@string/messageText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text"
+            android:id="@+id/textMessage" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textAutoCorrect"
+            android:elegantTextHeight="true"
+            android:hint="@string/hintMesText"
+            android:textAlignment="gravity"
+            android:ems="10"
+            android:id="@+id/editTextMessage"
+            />
+
+        <Button
+            android:text="@string/sendText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSend"/>
+    </LinearLayout>
 </RelativeLayout>
